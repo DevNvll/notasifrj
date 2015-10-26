@@ -1,0 +1,1 @@
+<section id=qtfalta ng-controller=qtFalta> <h1>Quanto falta para eu passar?</h1> <hr> <div id=row> <div> <b>MV1</b> <input type=number class=form-control id=mv1 ng-model=mv1 placeholder="Sua nota no MV1..."> </div> <div ng-if=media() class=text-center><br><br> <h1>Tu precisa tirar {{media()}} no MV2</h1> <h4 ng-if="media() >= 80">Tu ta na merda</h4> </div> </div> </section>
