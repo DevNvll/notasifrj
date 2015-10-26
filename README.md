@@ -16,7 +16,7 @@ Essa desgraça podia ser simples como as outras escolas, mas nãããão. Somos I
 ## Métodos
 
 ### ifrj.mediaFinal(mv1, mv2);
-Calcula a média final a partir das suas noats no MV1 e MV2.
+Calcula a média final a partir das suas notas no MV1 e MV2.
 
 ### ifrj.quantoFalta(mv1);
 Retorna a nota que você precisa tirar no MV2 para ter 60 de média final.
