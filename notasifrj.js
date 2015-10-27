@@ -1,6 +1,6 @@
 var Expression = algebra.Expression;
 var Equation = algebra.Equation;
-
+var Fraction = algebra.Fraction;
 var ifrj = {};
 
 ifrj.mediaFinal = function(mv1, mv2) {
@@ -15,4 +15,14 @@ ifrj.quantoFalta = function (mv1) {
   var eq = new Equation(expr, 60);
   var x = eq.solveFor("x");
   return x;
+};
+
+ifrj.recuperacao = function(nota) {
+  var expr = new Expression("x")
+  .multiply(new Fraction(15, 10))
+  .add(nota)
+  .divide(new Fraction(25, 10));
+  var eq = new Equation(expr, 60);
+  var x = eq.solveFor("x");
+  return x.numer/x.denom;
 };
