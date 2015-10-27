@@ -21,6 +21,11 @@ Calcula a média final a partir das suas notas no MV1 e MV2.
 ### ifrj.quantoFalta(mv1);
 Retorna a nota que você precisa tirar no MV2 para ter 60 de média final.
 
+### ifrj.recuperacao(nota);
+Retorna a nota que você precisa tirar na recuperação para ficar com média azul. Onde ``nota`` é a nota da prova que você ficou em recuperação.
+
+
+
 ## Disclaimer
 O cálculo é referente ao Campus de Arraial do Cabo/RJ e não sei se é o mesmo para os demais.
 
