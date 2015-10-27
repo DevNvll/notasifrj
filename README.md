@@ -1,7 +1,7 @@
 # notasifrj.js
 Funções em JavaScript para o cálculo de notas do IFRJ.
 
-Essa desgraça podia ser simples como as outras escolas, mas nãããão. Somos INSTITUTO FEDERAL, bora botar mv1 + (2*mv2)/3.
+Essa desgraça podia ser simples como as outras escolas mas nãããão, somos INSTITUTO FEDERAL, bora botar mv1 + (2*mv2)/3.
 
 ## Uso Básico
 
